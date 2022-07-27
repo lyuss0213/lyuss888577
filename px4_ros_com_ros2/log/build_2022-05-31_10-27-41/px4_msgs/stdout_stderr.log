@@ -1,0 +1,12 @@
+[  0%] Built target px4_msgs__cpp
+[ 12%] Built target px4_msgs__rosidl_generator_c
+[ 24%] Built target px4_msgs__rosidl_typesupport_cpp
+[ 37%] Built target px4_msgs__rosidl_typesupport_introspection_c
+[ 50%] Built target px4_msgs__rosidl_typesupport_c
+[ 62%] Built target px4_msgs__rosidl_typesupport_fastrtps_cpp
+[ 75%] Built target px4_msgs__rosidl_typesupport_introspection_cpp
+[ 88%] Built target px4_msgs__rosidl_typesupport_fastrtps_c
+[ 88%] Built target px4_msgs
+[ 88%] Built target px4_msgs__py
+make[1]: *** [CMakeFiles/Makefile2:363: CMakeFiles/px4_msgs__python.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

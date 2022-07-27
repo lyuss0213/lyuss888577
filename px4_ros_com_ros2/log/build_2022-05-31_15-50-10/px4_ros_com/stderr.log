@@ -1,0 +1,7 @@
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator.cpp:[m[K In member function ‘[01m[Kvoid PositionCalculator::get_mission2_radius(std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator.cpp:114:12:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[KPositionCalculator::r2[m[K’ in read-only object
+  114 |         [01;31m[Kr2 = msg->data[m[K;
+      |         [01;31m[K~~~^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/position_calculator.dir/build.make:63: CMakeFiles/position_calculator.dir/src/examples/offboard/position_calculator.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/position_calculator.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

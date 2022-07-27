@@ -1,0 +1,74 @@
+[0.011s] Invoking command in '/home/yjh/px4_ros_com_ros2/build/px4_ros_com': AMENT_PREFIX_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yjh/px4_ros_com_ros2/build/px4_ros_com -- -j4 -l4
+[0.095s] [  2%] Built target frame_transforms
+[0.098s] [  4%] Built target mission2
+[0.104s] [  5%] Built target offboard_control
+[0.105s] [  7%] Built target iris0_triangle
+[0.158s] [  8%] Built target debug_vect_advertiser
+[0.159s] [ 10%] Built target vehicle_gps_position_listener
+[0.159s] [ 12%] Built target sensor_combined_listener
+[0.181s] [35m[1mScanning dependencies of target iris2_triangle[0m
+[0.182s] [35m[1mScanning dependencies of target iris1_triangle[0m
+[0.189s] [35m[1mScanning dependencies of target position_calculator_iris1[0m
+[0.240s] [ 13%] [32mBuilding CXX object CMakeFiles/iris1_triangle.dir/src/examples/offboard/iris1_triangle.cpp.o[0m
+[0.242s] [ 13%] [32mBuilding CXX object CMakeFiles/iris2_triangle.dir/src/examples/offboard/iris2_triangle.cpp.o[0m
+[0.250s] [ 94%] Built target micrortps_agent
+[0.254s] [ 95%] [32mBuilding CXX object CMakeFiles/position_calculator_iris1.dir/src/examples/offboard/position_calculator_iris1.cpp.o[0m
+[0.273s] [35m[1mScanning dependencies of target position_calculator_iris2[0m
+[0.337s] [ 96%] [32mBuilding CXX object CMakeFiles/position_calculator_iris2.dir/src/examples/offboard/position_calculator_iris2.cpp.o[0m
+[27.279s] [ 97%] [32m[1mLinking CXX executable position_calculator_iris2[0m
+[27.310s] [ 98%] [32m[1mLinking CXX executable position_calculator_iris1[0m
+[27.736s] [ 98%] Built target position_calculator_iris2
+[27.761s] [ 98%] Built target position_calculator_iris1
+[28.828s] [ 99%] [32m[1mLinking CXX executable iris2_triangle[0m
+[29.133s] [ 99%] Built target iris2_triangle
+[29.504s] [100%] [32m[1mLinking CXX executable iris1_triangle[0m
+[29.795s] [100%] Built target iris1_triangle
+[29.808s] Invoked command in '/home/yjh/px4_ros_com_ros2/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yjh/px4_ros_com_ros2/build/px4_ros_com -- -j4 -l4
+[29.994s] Invoking command in '/home/yjh/px4_ros_com_ros2/build/px4_ros_com': AMENT_PREFIX_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yjh/px4_ros_com_ros2/build/px4_ros_com
+[30.003s] -- Install configuration: "RELWITHDEBINFO"
+[30.003s] -- Execute custom install script
+[30.004s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[30.004s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[30.005s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[30.005s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[30.006s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/lib/px4_ros_com/iris0_triangle
+[30.006s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/lib/px4_ros_com/iris1_triangle
+[30.007s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/lib/px4_ros_com/iris2_triangle
+[30.007s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/lib/px4_ros_com/position_calculator_iris1
+[30.008s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/lib/px4_ros_com/position_calculator_iris2
+[30.008s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/lib/px4_ros_com/mission2
+[30.009s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[30.009s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[30.010s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[30.010s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/cmake/EnableC++XX.cmake
+[30.010s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/cmake/EnableSanitizers.cmake
+[30.011s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/cmake/GenerateMicroRTPSAgent.cmake
+[30.011s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/launch/sensor_combined_listener.launch.py
+[30.012s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/test/__init__.py
+[30.012s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/test/pipeline_io_test.py
+[30.012s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/test/test_input.py
+[30.012s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/test/test_output.py
+[30.013s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[30.013s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[30.013s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[30.013s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[30.014s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[30.014s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[30.014s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[30.015s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[30.015s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[30.015s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[30.015s] -- Symlinking: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/package.dsv
+[30.026s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[30.026s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.027s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[30.027s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.027s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[30.027s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[30.028s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[30.028s] -- Up-to-date symlink: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/package.xml
+[30.028s] -- Up-to-date: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/lib/libframe_transforms.so
+[30.029s] -- Up-to-date: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/bin/micrortps_agent
+[30.029s] -- Up-to-date: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[30.029s] -- Up-to-date: /home/yjh/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-relwithdebinfo.cmake
+[30.033s] Invoked command in '/home/yjh/px4_ros_com_ros2/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yjh/px4_ros_com_ros2/build/px4_ros_com

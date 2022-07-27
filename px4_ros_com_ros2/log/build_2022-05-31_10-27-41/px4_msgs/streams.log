@@ -1,0 +1,14 @@
+[0.039s] Invoking command in '/home/yjh/px4_ros_com_ros2/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/yjh/px4_ros_com_ros2/build/px4_msgs -- -j4 -l4
+[7.041s] [  0%] Built target px4_msgs__cpp
+[7.274s] [ 12%] Built target px4_msgs__rosidl_generator_c
+[7.456s] [ 24%] Built target px4_msgs__rosidl_typesupport_cpp
+[7.745s] [ 37%] Built target px4_msgs__rosidl_typesupport_introspection_c
+[7.913s] [ 50%] Built target px4_msgs__rosidl_typesupport_c
+[8.267s] [ 62%] Built target px4_msgs__rosidl_typesupport_fastrtps_cpp
+[8.575s] [ 75%] Built target px4_msgs__rosidl_typesupport_introspection_cpp
+[9.001s] [ 88%] Built target px4_msgs__rosidl_typesupport_fastrtps_c
+[9.089s] [ 88%] Built target px4_msgs
+[9.209s] [ 88%] Built target px4_msgs__py
+[9.405s] make[1]: *** [CMakeFiles/Makefile2:363: CMakeFiles/px4_msgs__python.dir/all] Interrupt
+[9.419s] make: *** [Makefile:141: all] Interrupt
+[9.420s] Invoked command in '/home/yjh/px4_ros_com_ros2/build/px4_msgs' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/yjh/px4_ros_com_ros2/build/px4_msgs -- -j4 -l4

@@ -1,0 +1,27 @@
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator_iris1.cpp:28:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   28 |   float local_velocity_iris0[3], [01;31m[Kloat[m[K local_velocity_iris1[3], loat local_velocity_iris2[3];
+      |                                  [01;31m[K^~~~[m[K
+      |                                      [32m[K;[m[K
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator_iris1.cpp:28:39:[m[K [01;31m[Kerror: [m[K‘[01m[Klocal_velocity_iris1[m[K’ does not name a type
+   28 |   float local_velocity_iris0[3], loat [01;31m[Klocal_velocity_iris1[m[K[3], loat local_velocity_iris2[3];
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator_iris2.cpp:28:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   28 |   float local_velocity_iris0[3], [01;31m[Kloat[m[K local_velocity_iris1[3], loat local_velocity_iris2[3];
+      |                                  [01;31m[K^~~~[m[K
+      |                                      [32m[K;[m[K
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator_iris2.cpp:28:39:[m[K [01;31m[Kerror: [m[K‘[01m[Klocal_velocity_iris1[m[K’ does not name a type
+   28 |   float local_velocity_iris0[3], loat [01;31m[Klocal_velocity_iris1[m[K[3], loat local_velocity_iris2[3];
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator_iris2.cpp:[m[K In constructor ‘[01m[KPositionCalculator::PositionCalculator()[m[K’:
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator_iris2.cpp:91:48:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ was not declared in this scope
+   91 |   auto qos = rclcpp::QoS(rclcpp::KeepLast(10));[01;31m[Ks[m[K
+      |                                                [01;31m[K^[m[K
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator_iris2.cpp:98:40:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_iris2_position_and_velocity[m[K’ is not a member of ‘[01m[KPositionCalculator[m[K’
+   98 |    1ms, std::bind(&PositionCalculator::[01;31m[Ksend_iris2_position_and_velocity[m[K, this));
+      |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/position_calculator_iris2.dir/build.make:63: CMakeFiles/position_calculator_iris2.dir/src/examples/offboard/position_calculator_iris2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:451: CMakeFiles/position_calculator_iris2.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/position_calculator_iris1.dir/build.make:63: CMakeFiles/position_calculator_iris1.dir/src/examples/offboard/position_calculator_iris1.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:424: CMakeFiles/position_calculator_iris1.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

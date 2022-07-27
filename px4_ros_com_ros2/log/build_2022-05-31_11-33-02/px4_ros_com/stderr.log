@@ -1,0 +1,68 @@
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/iris0_takeoff.cpp:136:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ does not name a type
+  136 |  void receive_iris1_position(const [01;31m[Kstd_msgs[m[K::msg::Float32MultiArray::SharedPtr msg) const{
+      |                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/iris0_takeoff.cpp:136:49:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+  136 |  void receive_iris1_position(const std_msgs::msg[01;31m[K::[m[KFloat32MultiArray::SharedPtr msg) const{
+      |                                                 [01;31m[K^~[m[K
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/iris0_takeoff.cpp:136:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+  136 |  void receive_iris1_position[34m[K([m[Kconst std_msgs::msg[01;31m[K:[m[K[32m[K:[m[KFloat32MultiArray::SharedPtr msg) const{
+      |                             [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+      |                                                 [32m[K)[m[K
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/iris0_takeoff.cpp:136:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  136 |  void receive_iris1_position(const std_msgs::[01;31m[Kmsg[m[K::Float32MultiArray::SharedPtr msg) const{
+      |                                              [01;31m[K^~~[m[K
+      |                                                 [32m[K;[m[K
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/iris0_takeoff.cpp:136:51:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat32MultiArray[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+  136 |  void receive_iris1_position(const std_msgs::msg::[01;31m[KFloat32MultiArray[m[K::SharedPtr msg) const{
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/iris0_takeoff.cpp:[m[K In constructor ‘[01m[KOffboardControl::OffboardControl()[m[K’:
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/iris0_takeoff.cpp:81:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber0_[m[K’ was not declared in this scope
+   81 |   [01;31m[Ksubscriber0_[m[K = this->create_subscription<std_msgs::msg::Float32MultiArray>(
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/iris0_takeoff.cpp:81:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   81 |   subscriber0_ = this->create_subscription<[01;31m[Kstd_msgs[m[K::msg::Float32MultiArray>(
+      |                                            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/iris0_takeoff.cpp:81:24:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   81 |   subscriber0_ = this->[01;31m[Kcreate_subscription<std_msgs::msg::Float32MultiArray>[m[K(
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/iris0_takeoff.cpp:82:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kreceive_iris0_position[m[K’ is not a member of ‘[01m[KOffboardControl[m[K’
+   82 |    "iris0_pos", qos, std::bind(&OffboardControl::[01;31m[Kreceive_iris0_position[m[K, this, _1));
+      |                                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/iris0_takeoff.cpp:82:80:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   82 | s, std::bind(&OffboardControl::receive_iris0_position, this, [01;31m[K_1[m[K));
+      |                                                              [01;31m[K^~[m[K
+      |                                                              [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:18[m[K,
+                 from [01m[K/home/yjh/px4_ros_com_ros2/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8[m[K,
+                 from [01m[K/home/yjh/px4_ros_com_ros2/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7[m[K,
+                 from [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/iris0_takeoff.cpp:45[m[K:
+[01m[K/usr/include/c++/9/functional:211:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  211 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                  [01;36m[K^~[m[K
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/iris0_takeoff.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::publish_trajectory_setpoint() const[m[K’:
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/iris0_takeoff.cpp:190:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoz_z[m[K’ was not declared in this scope; did you mean ‘[01m[Kpos_z[m[K’?
+  190 |   msg.position = {pos_x, pos_y, [01;31m[Kpoz_z[m[K};
+      |                                 [01;31m[K^~~~~[m[K
+      |                                 [32m[Kpos_z[m[K
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/iris0_takeoff.cpp:190:38:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kpx4_msgs::msg::TrajectorySetpoint_<std::allocator<void> >::_position_type[m[K’ {aka ‘[01m[Kstd::array<float, 3>[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+  190 |   msg.position = {pos_x, pos_y, poz_z[01;31m[K}[m[K;
+      |                                      [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/functional:54[m[K,
+                 from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:18[m[K,
+                 from [01m[K/home/yjh/px4_ros_com_ros2/install/px4_msgs/include/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8[m[K,
+                 from [01m[K/home/yjh/px4_ros_com_ros2/install/px4_msgs/include/px4_msgs/msg/offboard_control_mode.hpp:7[m[K,
+                 from [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/iris0_takeoff.cpp:45[m[K:
+[01m[K/usr/include/c++/9/array:94:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::array<float, 3>& std::array<float, 3>::operator=(const std::array<float, 3>&)[m[K’
+   94 |     struct [01;36m[Karray[m[K
+      |            [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/array:94:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst std::array<float, 3>&[m[K’
+[01m[K/usr/include/c++/9/array:94:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::array<float, 3>& std::array<float, 3>::operator=(std::array<float, 3>&&)[m[K’
+[01m[K/usr/include/c++/9/array:94:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::array<float, 3>&&[m[K’
+make[2]: *** [CMakeFiles/iris0_takeoff.dir/build.make:63: CMakeFiles/iris0_takeoff.dir/src/examples/offboard/iris0_takeoff.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:314: CMakeFiles/iris0_takeoff.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

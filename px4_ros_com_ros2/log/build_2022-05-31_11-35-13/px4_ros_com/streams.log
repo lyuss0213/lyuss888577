@@ -1,0 +1,18 @@
+[0.049s] Invoking command in '/home/yjh/px4_ros_com_ros2/build/px4_ros_com': AMENT_PREFIX_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yjh/px4_ros_com_ros2/build/px4_ros_com -- -j4 -l4
+[0.214s] [  2%] Built target frame_transforms
+[0.291s] [  4%] Built target vehicle_gps_position_listener
+[0.370s] [  5%] Built target debug_vect_advertiser
+[0.448s] [  7%] Built target sensor_combined_listener
+[0.478s] [35m[1mScanning dependencies of target iris0_takeoff[0m
+[0.558s] [  8%] [32mBuilding CXX object CMakeFiles/iris0_takeoff.dir/src/examples/offboard/iris0_takeoff.cpp.o[0m
+[5.444s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/iris0_takeoff.cpp:[m[K In constructor ‘[01m[KOffboardControl::OffboardControl()[m[K’:
+[5.445s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/iris0_takeoff.cpp:84:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber0_[m[K’ was not declared in this scope
+[5.445s]    84 |   [01;31m[Ksubscriber0_[m[K = this->create_subscription<std_msgs::msg::Float32MultiArray>(
+[5.451s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[5.452s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/iris0_takeoff.cpp:85:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kreceive_iris0_position[m[K’ is not a member of ‘[01m[KOffboardControl[m[K’
+[5.452s]    85 |    "iris0_pos", qos, std::bind(&OffboardControl::[01;31m[Kreceive_iris0_position[m[K, this, _1));
+[5.452s]       |                                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.593s] make[2]: *** [CMakeFiles/iris0_takeoff.dir/build.make:63: CMakeFiles/iris0_takeoff.dir/src/examples/offboard/iris0_takeoff.cpp.o] Error 1
+[9.597s] make[1]: *** [CMakeFiles/Makefile2:314: CMakeFiles/iris0_takeoff.dir/all] Error 2
+[9.597s] make: *** [Makefile:141: all] Error 2
+[9.600s] Invoked command in '/home/yjh/px4_ros_com_ros2/build/px4_ros_com' returned '2': AMENT_PREFIX_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yjh/px4_ros_com_ros2/build/px4_ros_com -- -j4 -l4

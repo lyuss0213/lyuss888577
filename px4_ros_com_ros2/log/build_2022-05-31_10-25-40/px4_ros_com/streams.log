@@ -1,0 +1,88 @@
+[0.050s] Invoking command in '/home/yjh/px4_ros_com_ros2/build/px4_ros_com': AMENT_PREFIX_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yjh/px4_ros_com_ros2/build/px4_ros_com -- -j4 -l4
+[0.178s] -- Using C++17 compiler
+[0.183s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.304s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.275s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.305s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[1.387s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.403s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.813s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.988s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.152s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.160s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.773s] -- Found rmw_fastrtps_cpp: 1.3.0 (/opt/ros/foxy/share/rmw_fastrtps_cpp/cmake)
+[3.088s] -- Found px4_msgs: 2.0.1 (/home/yjh/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/cmake)
+[3.163s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.752s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[3.754s] -- fastrtpsgen found in /usr/local/bin
+[3.877s] openjdk version "13.0.7" 2021-04-20
+[3.877s] OpenJDK Runtime Environment (build 13.0.7+5-Ubuntu-0ubuntu120.04)
+[3.877s] OpenJDK 64-Bit Server VM (build 13.0.7+5-Ubuntu-0ubuntu120.04, mixed mode, sharing)
+[4.059s] -- fastrtpsgen version 1.0.4
+[4.062s] -- px4_msgs message dir under /home/yjh/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/msg
+[4.063s] -- IDL definitions under /home/yjh/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/msg
+[4.065s] -- Retrieving list of msgs to send...
+[4.309s] -- List of msgs to send: DebugArray, DebugKeyValue, DebugValue, DebugVect, OffboardControlMode, OnboardComputerStatus, OpticalFlow, PositionSetpoint, PositionSetpointTriplet, TelemetryStatus, Timesync, TrajectoryBezier, TrajectorySetpoint, VehicleCommand, VehicleLocalPositionSetpoint, VehicleTrajectoryBezier, VehicleTrajectoryWaypoint, VehicleMocapOdometry, VehicleVisualOdometry
+[4.309s] -- Retrieving list of msgs to receive...
+[4.567s] -- List of msgs to receive: CollisionConstraints, SensorCombined, Timesync, TimesyncStatus, TrajectoryWaypoint, VehicleControlMode, VehicleLocalPosition, VehicleOdometry, VehicleStatus
+[4.980s] -- Configuring done
+[5.827s] -- Generating done
+[5.843s] -- Build files have been written to: /home/yjh/px4_ros_com_ros2/build/px4_ros_com
+[6.016s] [  2%] Built target frame_transforms
+[6.121s] [  4%] Built target vehicle_gps_position_listener
+[6.209s] [  5%] Built target debug_vect_advertiser
+[6.321s] [  7%] Built target sensor_combined_listener
+[6.446s] [  9%] Built target iris0_takeoff
+[6.582s] [ 11%] Built target iris2_takeoff
+[6.728s] [ 13%] Built target offboard_control
+[6.781s] [35m[1mScanning dependencies of target position_calculator[0m
+[6.919s] [ 14%] [32mBuilding CXX object CMakeFiles/position_calculator.dir/src/examples/offboard/position_calculator.cpp.o[0m
+[14.308s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator.cpp:107:43:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kpx4_msgs::msg[m[K’
+[14.310s]   107 |       rclcpp::Subscription<px4_msgs::msg::[01;31m[KString[m[K>::SharedPtr mission2_subscriber_;
+[14.312s]       |                                           [01;31m[K^~~~~~[m[K
+[14.313s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator.cpp:107:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[14.313s]   107 |       rclcpp::Subscription<px4_msgs::msg::String[01;31m[K>[m[K::SharedPtr mission2_subscriber_;
+[14.314s]       |                                                 [01;31m[K^[m[K
+[14.314s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator.cpp:107:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[14.314s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator.cpp:107:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[14.315s]   107 |       rclcpp::Subscription<px4_msgs::msg::String>::[01;31m[KSharedPtr[m[K mission2_subscriber_;
+[14.315s]       |                                                    [01;31m[K^~~~~~~~~[m[K
+[14.315s]       |                                                             [32m[K;[m[K
+[14.316s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator.cpp:107:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kmission2_subscriber_[m[K’ does not name a type
+[14.317s]   107 |       rclcpp::Subscription<px4_msgs::msg::String>::SharedPtr [01;31m[Kmission2_subscriber_[m[K;
+[14.317s]       |                                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.317s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator.cpp:111:46:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+[14.318s]   111 |       void get_mission2(const std_msgs::msg::[01;31m[KString[m[K::SharedPtr msg)const{
+[14.318s]       |                                              [01;31m[K^~~~~~[m[K
+[14.319s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator.cpp:111:64:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+[14.319s]   111 |       void get_mission2(const std_msgs::msg::String::SharedPtr [01;31m[Kmsg[m[K)const{
+[14.319s]       |                                                                [01;31m[K^~~[m[K
+[14.319s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator.cpp:111:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+[14.320s]   111 |       void get_mission2[34m[K([m[Kconst std_msgs::msg::String::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K)const{
+[14.320s]       |                        [34m[K~[m[K                                      [01;31m[K^[m[K[32m[K~~~[m[K
+[14.321s]       |                                                               [32m[K)[m[K
+[14.322s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator.cpp:111:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[14.322s]   111 |       void get_mission2(const std_msgs::msg::String::[01;31m[KSharedPtr[m[K msg)const{
+[14.324s]       |                                                      [01;31m[K^~~~~~~~~[m[K
+[14.324s]       |                                                               [32m[K;[m[K
+[14.324s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator.cpp:111:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+[14.325s]   111 |       void get_mission2(const std_msgs::msg::String::SharedPtr [01;31m[Kmsg[m[K)const{
+[14.325s]       |                                                                [01;31m[K^~~[m[K
+[14.376s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator.cpp:[m[K In constructor ‘[01m[KPositionCalculator::PositionCalculator()[m[K’:
+[14.377s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator.cpp:92:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmission2_subscriber_[m[K’ was not declared in this scope
+[14.377s]    92 |   [01;31m[Kmission2_subscriber_[m[K = this->create_subscription<std_msgs::msg::String>(
+[14.378s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.379s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator.cpp:92:67:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[14.380s]    92 |   mission2_subscriber_ = this->create_subscription<std_msgs::msg::[01;31m[KString[m[K>(
+[14.382s]       |                                                                   [01;31m[K^~~~~~[m[K
+[14.420s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator.cpp:93:80:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[14.420s]    93 | , qos, std::bind(&PositionCalculator::get_mission2, this, _1)[01;31m[K;[m[K
+[14.421s]       |                                                              [01;31m[K^[m[K
+[14.422s]       |                                                              [32m[K)[m[K
+[14.425s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator.cpp:92:74:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[14.427s]    92 |   mission2_subscriber_ = this->create_subscription<std_msgs::msg::String>[01;36m[K([m[K
+[14.428s]       |                                                                          [01;36m[K^[m[K
+[20.436s] make[2]: *** [CMakeFiles/position_calculator.dir/build.make:63: CMakeFiles/position_calculator.dir/src/examples/offboard/position_calculator.cpp.o] Error 1
+[20.448s] make[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/position_calculator.dir/all] Error 2
+[20.452s] make: *** [Makefile:141: all] Error 2
+[20.455s] Invoked command in '/home/yjh/px4_ros_com_ros2/build/px4_ros_com' returned '2': AMENT_PREFIX_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yjh/px4_ros_com_ros2/build/px4_ros_com -- -j4 -l4

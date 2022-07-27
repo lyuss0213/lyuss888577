@@ -1,0 +1,86 @@
+[0.012s] Invoking command in '/home/yjh/px4_ros_com_ros2/build/px4_ros_com': AMENT_PREFIX_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yjh/px4_ros_com_ros2/build/px4_ros_com -- -j4 -l4
+[0.076s] -- Using C++17 compiler
+[0.077s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.108s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.357s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.376s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.404s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.409s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.559s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.615s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.669s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.672s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.864s] -- Found rmw_fastrtps_cpp: 1.3.0 (/opt/ros/foxy/share/rmw_fastrtps_cpp/cmake)
+[0.989s] -- Found px4_msgs: 2.0.1 (/home/yjh/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/cmake)
+[1.012s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.187s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.189s] -- fastrtpsgen found in /usr/local/bin
+[1.363s] openjdk version "13.0.7" 2021-04-20
+[1.364s] OpenJDK Runtime Environment (build 13.0.7+5-Ubuntu-0ubuntu120.04)
+[1.364s] OpenJDK 64-Bit Server VM (build 13.0.7+5-Ubuntu-0ubuntu120.04, mixed mode, sharing)
+[1.412s] -- fastrtpsgen version 1.0.4
+[1.412s] -- px4_msgs message dir under /home/yjh/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/msg
+[1.412s] -- IDL definitions under /home/yjh/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/msg
+[1.412s] -- Retrieving list of msgs to send...
+[1.476s] -- List of msgs to send: DebugArray, DebugKeyValue, DebugValue, DebugVect, OffboardControlMode, OnboardComputerStatus, OpticalFlow, PositionSetpoint, PositionSetpointTriplet, TelemetryStatus, Timesync, TrajectoryBezier, TrajectorySetpoint, VehicleCommand, VehicleLocalPositionSetpoint, VehicleTrajectoryBezier, VehicleTrajectoryWaypoint, VehicleMocapOdometry, VehicleVisualOdometry
+[1.476s] -- Retrieving list of msgs to receive...
+[1.537s] -- List of msgs to receive: CollisionConstraints, SensorCombined, Timesync, TimesyncStatus, TrajectoryWaypoint, VehicleControlMode, VehicleLocalPosition, VehicleOdometry, VehicleStatus
+[1.648s] -- Configuring done
+[1.919s] -- Generating done
+[1.921s] -- Build files have been written to: /home/yjh/px4_ros_com_ros2/build/px4_ros_com
+[1.993s] [  2%] Built target mission2
+[2.000s] [  5%] Built target offboard_control
+[2.000s] [  5%] Built target iris0_triangle
+[2.003s] [  7%] Built target frame_transforms
+[2.052s] [  8%] Built target debug_vect_advertiser
+[2.053s] [ 10%] Built target sensor_combined_listener
+[2.068s] [ 12%] Built target vehicle_gps_position_listener
+[2.072s] [35m[1mScanning dependencies of target iris1_triangle[0m
+[2.075s] [35m[1mScanning dependencies of target iris2_triangle[0m
+[2.083s] [35m[1mScanning dependencies of target position_calculator_iris1[0m
+[2.124s] [ 12%] [32mBuilding CXX object CMakeFiles/iris2_triangle.dir/src/examples/offboard/iris2_triangle.cpp.o[0m
+[2.134s] [ 13%] [32mBuilding CXX object CMakeFiles/iris1_triangle.dir/src/examples/offboard/iris1_triangle.cpp.o[0m
+[2.137s] [ 94%] Built target micrortps_agent
+[2.149s] [35m[1mScanning dependencies of target position_calculator_iris2[0m
+[2.219s] [ 95%] [32mBuilding CXX object CMakeFiles/position_calculator_iris1.dir/src/examples/offboard/position_calculator_iris1.cpp.o[0m
+[2.226s] [ 96%] [32mBuilding CXX object CMakeFiles/position_calculator_iris2.dir/src/examples/offboard/position_calculator_iris2.cpp.o[0m
+[5.500s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator_iris1.cpp:28:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[5.500s]    28 |   float local_velocity_iris0[3], [01;31m[Kloat[m[K local_velocity_iris1[3], loat local_velocity_iris2[3];
+[5.500s]       |                                  [01;31m[K^~~~[m[K
+[5.500s]       |                                      [32m[K;[m[K
+[5.507s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator_iris1.cpp:28:39:[m[K [01;31m[Kerror: [m[K‘[01m[Klocal_velocity_iris1[m[K’ does not name a type
+[5.507s]    28 |   float local_velocity_iris0[3], loat [01;31m[Klocal_velocity_iris1[m[K[3], loat local_velocity_iris2[3];
+[5.507s]       |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.540s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator_iris2.cpp:28:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[5.541s]    28 |   float local_velocity_iris0[3], [01;31m[Kloat[m[K local_velocity_iris1[3], loat local_velocity_iris2[3];
+[5.541s]       |                                  [01;31m[K^~~~[m[K
+[5.541s]       |                                      [32m[K;[m[K
+[5.551s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator_iris2.cpp:28:39:[m[K [01;31m[Kerror: [m[K‘[01m[Klocal_velocity_iris1[m[K’ does not name a type
+[5.551s]    28 |   float local_velocity_iris0[3], loat [01;31m[Klocal_velocity_iris1[m[K[3], loat local_velocity_iris2[3];
+[5.551s]       |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.633s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator_iris2.cpp:[m[K In constructor ‘[01m[KPositionCalculator::PositionCalculator()[m[K’:
+[5.633s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator_iris2.cpp:91:48:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ was not declared in this scope
+[5.634s]    91 |   auto qos = rclcpp::QoS(rclcpp::KeepLast(10));[01;31m[Ks[m[K
+[5.634s]       |                                                [01;31m[K^[m[K
+[5.650s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator_iris2.cpp:98:40:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_iris2_position_and_velocity[m[K’ is not a member of ‘[01m[KPositionCalculator[m[K’
+[5.650s]    98 |    1ms, std::bind(&PositionCalculator::[01;31m[Ksend_iris2_position_and_velocity[m[K, this));
+[5.650s]       |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.656s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator_iris2.cpp:[m[K In member function ‘[01m[Kvoid PositionCalculator::send_iris2_position()[m[K’:
+[5.656s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator_iris2.cpp:118:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[5.656s]   118 |      msg.data.push_back[34m[K([m[Klocal_position_iris0[0] -4.5[01;31m[K;[m[K);
+[5.656s]       |                        [34m[K~[m[K                            [01;31m[K^[m[K
+[5.656s]       |                                                     [32m[K)[m[K
+[5.657s] [01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator_iris2.cpp:118:54:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[5.657s]   118 |      msg.data.push_back(local_position_iris0[0] -4.5;[01;31m[K)[m[K;
+[5.657s]       |                                                      [01;31m[K^[m[K
+[9.448s] make[2]: *** [CMakeFiles/position_calculator_iris2.dir/build.make:63: CMakeFiles/position_calculator_iris2.dir/src/examples/offboard/position_calculator_iris2.cpp.o] Error 1
+[9.449s] make[1]: *** [CMakeFiles/Makefile2:451: CMakeFiles/position_calculator_iris2.dir/all] Error 2
+[9.449s] make[1]: *** Waiting for unfinished jobs....
+[9.539s] make[2]: *** [CMakeFiles/position_calculator_iris1.dir/build.make:63: CMakeFiles/position_calculator_iris1.dir/src/examples/offboard/position_calculator_iris1.cpp.o] Error 1
+[9.540s] make[1]: *** [CMakeFiles/Makefile2:424: CMakeFiles/position_calculator_iris1.dir/all] Error 2
+[24.140s] [ 97%] [32m[1mLinking CXX executable iris2_triangle[0m
+[24.468s] [ 98%] [32m[1mLinking CXX executable iris1_triangle[0m
+[24.488s] [ 98%] Built target iris2_triangle
+[24.763s] [ 98%] Built target iris1_triangle
+[24.764s] make: *** [Makefile:141: all] Error 2
+[24.766s] Invoked command in '/home/yjh/px4_ros_com_ros2/build/px4_ros_com' returned '2': AMENT_PREFIX_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yjh/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yjh/px4_ros_com_ros2/build/px4_ros_com -- -j4 -l4

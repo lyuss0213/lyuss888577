@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.000292] (px4_msgs) JobQueued: {'identifier': 'px4_msgs', 'dependencies': OrderedDict()}
+[0.000413] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict([('px4_msgs', '/home/yjh/px4_ros_com_ros2/install/px4_msgs')])}
+[0.000871] (px4_msgs) JobStarted: {'identifier': 'px4_msgs'}
+[0.024979] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'cmake'}
+[0.027673] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'build'}
+[0.027914] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yjh/px4_ros_com_ros2/build/px4_msgs', '--', '-j4', '-l4'], 'cwd': '/home/yjh/px4_ros_com_ros2/build/px4_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SDKMAN_VERSION', '5.15.0'), ('USER', 'yjh'), ('SSH_AGENT_PID', '1519'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/yjh'), ('OLDPWD', '/home/yjh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/home/yjh/.sdkman/candidates/gradle/current'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1338'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'yjh'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('JOURNAL_STREAM', '8:42523'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yjh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/yjh/.sdkman/candidates/gradle/current/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/yjh/.local/bin'), ('SESSION_MANAGER', 'local/yjh-500R5M-500R5W-501R5M:@/tmp/.ICE-unix/1558,unix/yjh-500R5M-500R5W-501R5M:/tmp/.ICE-unix/1558'), ('SDKMAN_CANDIDATES_DIR', '/home/yjh/.sdkman/candidates'), ('INVOCATION_ID', '70c0bc56790549ff9e8edbbc2759d143'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b0bfe6fe_9c7c_4b65_b871_bc6f323e9e21'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SDKMAN_DIR', '/home/yjh/.sdkman'), ('FASTRTPSGEN_DIR', '/usr/local/bin'), ('SDKMAN_PLATFORM', 'linuxx64'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yjh/px4_ros_com_ros2/build/px4_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099337] (-) TimerEvent: {}
+[0.199943] (-) TimerEvent: {}
+[0.300760] (-) TimerEvent: {}
+[0.401119] (-) TimerEvent: {}
+[0.501518] (-) TimerEvent: {}
+[0.602501] (-) TimerEvent: {}
+[0.703577] (-) TimerEvent: {}
+[0.803912] (-) TimerEvent: {}
+[0.904304] (-) TimerEvent: {}
+[1.005577] (-) TimerEvent: {}
+[1.106682] (-) TimerEvent: {}
+[1.207462] (-) TimerEvent: {}
+[1.308582] (-) TimerEvent: {}
+[1.409124] (-) TimerEvent: {}
+[1.509569] (-) TimerEvent: {}
+[1.610124] (-) TimerEvent: {}
+[1.710594] (-) TimerEvent: {}
+[1.811200] (-) TimerEvent: {}
+[1.912133] (-) TimerEvent: {}
+[2.012812] (-) TimerEvent: {}
+[2.113823] (-) TimerEvent: {}
+[2.214322] (-) TimerEvent: {}
+[2.314728] (-) TimerEvent: {}
+[2.415196] (-) TimerEvent: {}
+[2.516031] (-) TimerEvent: {}
+[2.616464] (-) TimerEvent: {}
+[2.716923] (-) TimerEvent: {}
+[2.817426] (-) TimerEvent: {}
+[2.917838] (-) TimerEvent: {}
+[3.018489] (-) TimerEvent: {}
+[3.119633] (-) TimerEvent: {}
+[3.220119] (-) TimerEvent: {}
+[3.320651] (-) TimerEvent: {}
+[3.421763] (-) TimerEvent: {}
+[3.522371] (-) TimerEvent: {}
+[3.622939] (-) TimerEvent: {}
+[3.723373] (-) TimerEvent: {}
+[3.823896] (-) TimerEvent: {}
+[3.924271] (-) TimerEvent: {}
+[4.024667] (-) TimerEvent: {}
+[4.125255] (-) TimerEvent: {}
+[4.226019] (-) TimerEvent: {}
+[4.326483] (-) TimerEvent: {}
+[4.426980] (-) TimerEvent: {}
+[4.527776] (-) TimerEvent: {}
+[4.628205] (-) TimerEvent: {}
+[4.728823] (-) TimerEvent: {}
+[4.829611] (-) TimerEvent: {}
+[4.930511] (-) TimerEvent: {}
+[5.030917] (-) TimerEvent: {}
+[5.131432] (-) TimerEvent: {}
+[5.160644] (px4_msgs) StdoutLine: {'line': b'[  0%] Built target px4_msgs__cpp\n'}
+[5.231575] (-) TimerEvent: {}
+[5.320171] (px4_msgs) StdoutLine: {'line': b'[ 12%] Built target px4_msgs__rosidl_generator_c\n'}
+[5.331713] (-) TimerEvent: {}
+[5.424387] (px4_msgs) StdoutLine: {'line': b'[ 24%] Built target px4_msgs__rosidl_typesupport_cpp\n'}
+[5.431875] (-) TimerEvent: {}
+[5.532531] (-) TimerEvent: {}
+[5.633249] (-) TimerEvent: {}
+[5.633546] (px4_msgs) StdoutLine: {'line': b'[ 37%] Built target px4_msgs__rosidl_typesupport_introspection_c\n'}
+[5.732613] (px4_msgs) StdoutLine: {'line': b'[ 50%] Built target px4_msgs__rosidl_typesupport_c\n'}
+[5.733367] (-) TimerEvent: {}
+[5.833743] (-) TimerEvent: {}
+[5.934229] (-) TimerEvent: {}
+[5.950085] (px4_msgs) StdoutLine: {'line': b'[ 62%] Built target px4_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[6.034352] (-) TimerEvent: {}
+[6.129275] (px4_msgs) StdoutLine: {'line': b'[ 75%] Built target px4_msgs__rosidl_typesupport_introspection_cpp\n'}
+[6.134535] (-) TimerEvent: {}
+[6.235912] (-) TimerEvent: {}
+[6.336848] (-) TimerEvent: {}
+[6.437288] (-) TimerEvent: {}
+[6.440550] (px4_msgs) StdoutLine: {'line': b'[ 88%] Built target px4_msgs__rosidl_typesupport_fastrtps_c\n'}
+[6.533367] (px4_msgs) StdoutLine: {'line': b'[ 88%] Built target px4_msgs\n'}
+[6.537532] (-) TimerEvent: {}
+[6.638213] (-) TimerEvent: {}
+[6.645214] (px4_msgs) StdoutLine: {'line': b'[ 88%] Built target px4_msgs__py\n'}
+[6.738310] (-) TimerEvent: {}
+[6.838628] (-) TimerEvent: {}
+[6.939137] (-) TimerEvent: {}
+[7.017668] (px4_msgs) StdoutLine: {'line': b'[100%] Built target px4_msgs__python\n'}
+[7.039200] (-) TimerEvent: {}
+[7.119577] (px4_msgs) StdoutLine: {'line': b'[100%] Built target px4_msgs__rosidl_typesupport_c__pyext\n'}
+[7.139509] (-) TimerEvent: {}
+[7.223754] (px4_msgs) StdoutLine: {'line': b'[100%] Built target px4_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.239747] (-) TimerEvent: {}
+[7.319016] (px4_msgs) StdoutLine: {'line': b'[100%] Built target px4_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[7.340052] (-) TimerEvent: {}
+[7.363501] (px4_msgs) CommandEnded: {'returncode': 0}
+[7.440316] (-) TimerEvent: {}
+[7.540645] (-) TimerEvent: {}
+[7.641173] (-) TimerEvent: {}
+[7.743960] (-) TimerEvent: {}
+[7.844404] (-) TimerEvent: {}
+[7.944759] (-) TimerEvent: {}
+[8.045184] (-) TimerEvent: {}
+[8.145729] (-) TimerEvent: {}
+[8.246163] (-) TimerEvent: {}
+[8.346901] (-) TimerEvent: {}
+[8.448354] (-) TimerEvent: {}
+[8.549408] (-) TimerEvent: {}
+[8.649933] (-) TimerEvent: {}
+[8.751127] (-) TimerEvent: {}
+[8.851571] (-) TimerEvent: {}
+[8.952110] (-) TimerEvent: {}
+[9.053425] (-) TimerEvent: {}
+[9.153945] (-) TimerEvent: {}
+[9.254512] (-) TimerEvent: {}
+[9.355048] (-) TimerEvent: {}
+[9.455626] (-) TimerEvent: {}
+[9.556451] (-) TimerEvent: {}
+[9.657538] (-) TimerEvent: {}
+[9.758950] (-) TimerEvent: {}
+[9.816681] (px4_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 67, in execute\n    loop.run_until_complete(future)\n  File "/usr/lib/python3.8/asyncio/base_events.py", line 603, in run_until_complete\n    self.run_forever()\n  File "/usr/lib/python3.8/asyncio/base_events.py", line 570, in run_forever\n    self._run_once()\n  File "/usr/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once\n    event_list = self._selector.select(timeout)\n  File "/usr/lib/python3.8/selectors.py", line 468, in select\n    fd_event_list = self._selector.poll(timeout, max_ev)\nKeyboardInterrupt\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build\n    rc = await extension.build(\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 110, in build\n    if await has_target(args.build_base, \'install\'):\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target\n    return target in await get_makefile_targets(path)\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 77, in get_makefile_targets\n    output = await check_output([\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 128, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/cmake\', \'--build\', \'/home/yjh/px4_ros_com_ros2/build/px4_msgs\', \'--target\', \'help\'] to pass: \n'}
+[9.817772] (px4_msgs) JobEnded: {'identifier': 'px4_msgs', 'rc': 'SIGINT'}
+[9.821769] (px4_ros_com) JobSkipped: {'identifier': 'px4_ros_com'}
+[9.821859] (-) EventReactorShutdown: {}

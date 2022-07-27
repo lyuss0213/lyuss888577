@@ -1,0 +1,10 @@
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator.cpp:[m[K In member function ‘[01m[Kvoid PositionCalculator::send_iris2_position()[m[K’:
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator.cpp:134:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  134 |      float [01;35m[Kx[m[K, y, z;
+      |            [01;35m[K^[m[K
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator.cpp:134:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  134 |      float x, [01;35m[Ky[m[K, z;
+      |               [01;35m[K^[m[K
+[01m[K/home/yjh/px4_ros_com_ros2/src/px4_ros_com/src/examples/offboard/position_calculator.cpp:134:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  134 |      float x, y, [01;35m[Kz[m[K;
+      |                  [01;35m[K^[m[K
